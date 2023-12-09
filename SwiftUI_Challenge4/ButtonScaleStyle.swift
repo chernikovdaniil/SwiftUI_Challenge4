@@ -10,7 +10,7 @@ import SwiftUI
 #Preview {
     SparrowPlayButton()
         .frame(width: 100, height: 100)
-        .buttonStyle(ButtonScaleStyle())
+        .buttonStyle(ButtonScaleStyle(scale: 0.86, animationDuration: 0.22))
 }
 
 /*
@@ -20,8 +20,13 @@ import SwiftUI
  */
 
 struct ButtonScaleStyle: ButtonStyle {
-    private let scale: Double = 0.86
-    private let animationDuration: TimeInterval = 0.22
+    private let scale: Double
+    private let animationDuration: TimeInterval
+    
+    init(scale: Double, animationDuration: TimeInterval) {
+        self.scale = scale
+        self.animationDuration = animationDuration
+    }
     
     @State private var performScale = false
     

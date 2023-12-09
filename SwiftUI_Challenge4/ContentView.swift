@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        SparrowPlayButton()
-            .frame(width: 100, height: 100)
-            .buttonStyle(ButtonScaleStyle())
-            .foregroundStyle(.blue)
-    }
-}
-
 #Preview {
     ContentView()
+}
+
+struct ContentView: View {
+    var body: some View {
+        
+        SparrowPlayButton()
+            .frame(width: 100, height: 100)
+            .buttonStyle(ButtonScaleStyle(scale: 0.86, animationDuration: 0.22))
+            .foregroundStyle(.blue)
+    }
 }
