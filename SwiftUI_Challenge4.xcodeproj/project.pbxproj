@@ -11,6 +11,9 @@
 		39BB799F2B249A7C00C52034 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB799E2B249A7C00C52034 /* ContentView.swift */; };
 		39BB79A12B249A7D00C52034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BB79A02B249A7D00C52034 /* Assets.xcassets */; };
 		39BB79A42B249A7D00C52034 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BB79A32B249A7D00C52034 /* Preview Assets.xcassets */; };
+		39BB79AB2B249A9700C52034 /* SparrowPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB79AA2B249A9700C52034 /* SparrowPlayButton.swift */; };
+		39BB79AE2B249E3300C52034 /* ButtonScaleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB79AD2B249E3300C52034 /* ButtonScaleStyle.swift */; };
+		39BB79B22B24A31100C52034 /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB79B12B24A31100C52034 /* Binding+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		39BB799E2B249A7C00C52034 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39BB79A02B249A7D00C52034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39BB79A32B249A7D00C52034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39BB79AA2B249A9700C52034 /* SparrowPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparrowPlayButton.swift; sourceTree = "<group>"; };
+		39BB79AD2B249E3300C52034 /* ButtonScaleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScaleStyle.swift; sourceTree = "<group>"; };
+		39BB79B12B24A31100C52034 /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				39BB799C2B249A7C00C52034 /* SwiftUI_Challenge4App.swift */,
 				39BB799E2B249A7C00C52034 /* ContentView.swift */,
+				39BB79AA2B249A9700C52034 /* SparrowPlayButton.swift */,
+				39BB79AD2B249E3300C52034 /* ButtonScaleStyle.swift */,
+				39BB79B12B24A31100C52034 /* Binding+Extension.swift */,
 				39BB79A02B249A7D00C52034 /* Assets.xcassets */,
 				39BB79A22B249A7D00C52034 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39BB799F2B249A7C00C52034 /* ContentView.swift in Sources */,
+				39BB79B22B24A31100C52034 /* Binding+Extension.swift in Sources */,
 				39BB799D2B249A7C00C52034 /* SwiftUI_Challenge4App.swift in Sources */,
+				39BB79AE2B249E3300C52034 /* ButtonScaleStyle.swift in Sources */,
+				39BB79AB2B249A9700C52034 /* SparrowPlayButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
